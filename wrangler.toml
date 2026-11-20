@@ -1,0 +1,9 @@
+# Cloudflare Pages — himza-trades
+name = "himza-trades"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Static site at repo root (index.html)
+pages_build_output_dir = "."
+
+# Do NOT set a Workers-style main/entry — this is Pages + functions/api/*

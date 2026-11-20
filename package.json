@@ -1,0 +1,17 @@
+{
+  "name": "himza-trades",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler pages deploy . --project-name=himza-trades",
+    "dev": "wrangler pages dev ."
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0"
+  }
+}
